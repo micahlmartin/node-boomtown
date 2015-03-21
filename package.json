@@ -4,7 +4,8 @@
   "description": "A client wrapper for the BoomTown API",
   "main": "index.js",
   "scripts": {
-    "test": "lab"
+    "test": "lab",
+    "lint": "jshint --reporter node_modules/jshint-stylish-ex/stylish.js ."
   },
   "repository": {
     "type": "git",
